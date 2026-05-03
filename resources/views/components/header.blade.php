@@ -8,5 +8,8 @@
                 <li class="nav-item"><a class="nav-link" href="{{ url('/about') }}">About</a></li>
             </ul>
         </div>
+        <div class="d-flex">
+            <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#bs-modal-login">Log In</button>
+        </div>
     </div>
 </nav>
